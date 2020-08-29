@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Excellencestar
+ * @copyright Copyright (c) 2020 Excellencestar
+ * @package Excellencestar_InvisibleCaptcha
+ */
+-->
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="before.body.end">
+            <block class="Excellencestar\InvisibleCaptcha\Block\Captcha" template="Excellencestar_InvisibleCaptcha::captcha.phtml" name="ex_captcha"/>
+        </referenceContainer>
+    </body>
+</page>
